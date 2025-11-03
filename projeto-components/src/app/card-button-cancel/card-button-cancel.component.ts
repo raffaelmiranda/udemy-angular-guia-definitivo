@@ -4,17 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-card-button-cancel',
   templateUrl: './card-button-cancel.component.html',
   styleUrls: ['./card-button-cancel.component.scss'],
-  styles: [
+  /*styles: [
     `
       .card-cancel-button {
-        font-size: 16px;
-        text-align: center;
-        margin-top: 10px;
-        border-radius: 25px;
-        background-color: blue;
-        cursor: pointer;
-        font-weight: bold;
-        padding: 10px;
+        background-color: green;
       }
     `,
     `
@@ -22,6 +15,6 @@ import { Component } from '@angular/core';
         background-color: black;
       }
     `,
-  ],
+  ],*/
 })
 export class CardButtonCancelComponent {}
