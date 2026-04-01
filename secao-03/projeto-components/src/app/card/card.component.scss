@@ -21,10 +21,18 @@
   }
 }
 //Alterar a propriedade css filho a partir do css do componente pai
-::ng-deep .card-cancel-button {
+/*::ng-deep .card-cancel-button {
   background-color: red !important;
 }
 
 ::ng-deep #cancel-button .card-cancel-button {
   background-color: rgb(255, 0, 234) !important;
+}*/
+
+:host ::ng-deep #cancel-button {
+  background-color: yellow !important;
+}
+
+:host ::ng-deep mat-slider .mdc-slider__track--active_fill {
+  border-color: yellowgreen !important;
 }

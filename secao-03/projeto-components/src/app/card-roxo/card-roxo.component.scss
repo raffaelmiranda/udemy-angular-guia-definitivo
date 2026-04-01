@@ -20,3 +20,9 @@
     font-size: 40px;
   }
 }
+:host ::ng-deep #primeiro .card-roxo-button {
+  background-color: aquamarine !important;
+}
+:host ::ng-deep #primeiro .card-roxo-button {
+  background-color: rgb(64, 25, 207) !important;
+}
